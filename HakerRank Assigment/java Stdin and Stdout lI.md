@@ -3,9 +3,9 @@ In this challenge, you must read an integer, a double, and a String from stdin, 
 
 Sample Input
 
-42
-3.1415
-Welcome to HackerRank's Java tutorials!
+42 <br> 
+3.1415  <br> 
+Welcome to HackerRank's Java tutorials!  <br> 
 
 
 SOLUTION  
@@ -34,5 +34,5 @@ public class Solution {
 OUTPUT 
   
   String: Welcome to HackerRank's Java tutorials! <br>
-  Double: 3.1415 \n
-  Int: 42 \n
+  Double: 3.1415   <br> 
+  Int: 42  <br> 
