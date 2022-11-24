@@ -10,9 +10,9 @@ Welcome to HackerRank's Java tutorials!  <br>
 
 SOLUTION  
 
-import java.util.Scanner;
+    import java.util.Scanner;
 
-public class Solution {
+    public class Solution {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -27,8 +27,8 @@ public class Solution {
         System.out.println("String: " + s);
         System.out.println("Double: " + d);
         System.out.println("Int: " + i);
+        }
     }
-}
 
 
 OUTPUT 
