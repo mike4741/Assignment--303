@@ -33,6 +33,6 @@ public class Solution {
 
 OUTPUT 
   
-  String: Welcome to HackerRank's Java tutorials! \\n
+  String: Welcome to HackerRank's Java tutorials! <br>
   Double: 3.1415 \n
   Int: 42 \n
