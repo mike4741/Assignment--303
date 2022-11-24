@@ -1,0 +1,11 @@
+package test;
+
+public class MainTest {
+
+	public static void main(String[] args) {
+		System.out.println("test out put ");
+		char x = 90;
+		System.out.print(x);
+	}
+
+}
