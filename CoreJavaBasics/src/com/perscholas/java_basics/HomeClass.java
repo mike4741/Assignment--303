@@ -1,4 +1,5 @@
 package com.perscholas.java_basics;
+import java.text.DecimalFormat;
 
 public class HomeClass {
 
@@ -47,7 +48,7 @@ public class HomeClass {
 
 		System.out.println("Area of a circle with radius " + rad + "= " + area);
 
-		final double SALES_TAX = 4.25;
+		final double SALES_TAX = 1.15;
 		int coffee = 5;
 		int cappuccino = 3;
 		int espresso = 6;
@@ -59,9 +60,14 @@ public class HomeClass {
 
 		subTotal = order;
 
-		Total = (double) subTotal + SALES_TAX;
+		Total = (double) subTotal * SALES_TAX;
 		
-		System.out.println("The total price of the sales  " + Total );
+		
+		DecimalFormat df = new DecimalFormat("#.##"); 
+		
+		String ans = df.format(Total); 
+		
+		System.out.println("The total price of the sales  " + ans );
 	}
 
 }
